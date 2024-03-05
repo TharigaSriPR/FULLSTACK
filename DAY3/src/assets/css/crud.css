@@ -1,0 +1,120 @@
+/* Combined CSS */
+
+/* Global styles */
+.container {
+    margin: 0 auto;
+    width: 50%; /* Adjust the width as needed */
+  }
+  
+  .add-product {
+    margin-bottom: 20px;
+  }
+  
+  /* Table styles */
+  .table-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Add margin to separate from the top */
+  }
+  
+  .table th,
+  .table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Button styles */
+  .button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Edit and delete button styles */
+  .editButton {
+    background-color: #4287f5;
+  }
+  
+  .editButton:hover {
+    background-color: #0a6cff;
+  }
+  
+  .deleteButton {
+    background-color: #f54242;
+  }
+  
+  .deleteButton:hover {
+    background-color: #ff0000;
+  }
+/* crud.css */
+
+/* Add margin between buttons */
+.button {
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  
+  /* Additional styles for edit and delete buttons */
+  .editButton {
+    background-color: #ffab40; /* Orange color for edit button */
+  }
+  
+  .deleteButton {
+    background-color: #f44336; /* Red color for delete button */
+  }
+    /* crud.css */
+
+/* Button styles */
+.button {
+    padding: 10px 20px;
+    background-color: #4caf50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .edit-button {
+    background-color: #fdd835; /* Yellow */
+  }
+  
+  .edit-button:hover {
+    background-color: #fbc02d; /* Darker yellow on hover */
+  }
+  
+  .delete-button {
+    background-color: #f44336; /* Red */
+  }
+  
+  .delete-button:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+  }
+  
